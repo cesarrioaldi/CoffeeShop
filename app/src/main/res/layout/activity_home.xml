@@ -116,6 +116,7 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/btnblackcoffee"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     app:srcCompat="@drawable/blackcoffee" />
@@ -136,6 +137,7 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/btnhotchocolate"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     app:srcCompat="@drawable/hotchocolate" />
@@ -164,6 +166,7 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/btncoffeelate"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     app:srcCompat="@drawable/expreso" />
@@ -184,6 +187,7 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/btncake"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     app:srcCompat="@drawable/cake" />
