@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeAct"></activity>
+        <activity android:name=".BuyAct"></activity>
+        <activity android:name=".HomeAct" />
         <activity android:name=".SignUpAct" />
         <activity android:name=".SigninAct" />
         <activity android:name=".MainActivity">
