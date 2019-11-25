@@ -73,116 +73,129 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <LinearLayout
-        android:padding="48dp"
-        android:background="@drawable/bglinear"
-        android:orientation="vertical"
-        android:layout_marginTop="70dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/bglinear"
+        android:orientation="vertical"
+        android:padding="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view">
 
         <TextView
-            android:fontFamily="@font/segoeuib"
-            android:text="Silahkan Pilih Pesanan Kamu"
+            android:textColor="#FFF"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoeuib"
+            android:text="Silahkan Pilih Pesanan Kamu" />
 
         <View
-            android:layout_marginBottom="16dp"
-            android:layout_marginTop="16dp"
-            android:background="#EDEDED"
             android:layout_width="match_parent"
-            android:layout_height="1dp"/>
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#EDEDED" />
 
-
-    <LinearLayout
-        android:weightSum="2"
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
         <LinearLayout
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
 
-            <ImageView
-                app:srcCompat="@drawable/blackcoffee"
-                android:layout_width="64dp"
-                android:layout_height="64dp" />
-            <TextView
-                android:textColor="#fff"
-                android:text="Black Coffee"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
 
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:srcCompat="@drawable/blackcoffee" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Black Coffee"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:srcCompat="@drawable/hotchocolate" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hot Chocolate"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="30dp"
+            android:weightSum="2">
 
-            <ImageView
-                app:srcCompat="@drawable/hotchocolate"
-                android:layout_width="64dp"
-                android:layout_height="64dp" />
-            <TextView
-                android:textColor="#fff"
-                android:text="Hot Chocolate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
 
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:srcCompat="@drawable/expreso" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coffee Late"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:srcCompat="@drawable/cake" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cake"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:paddingTop="30dp"
-        android:weightSum="2"
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                app:srcCompat="@drawable/expreso"
-                android:layout_width="64dp"
-                android:layout_height="64dp" />
-            <TextView
-                android:textColor="#fff"
-                android:text="Coffee Late"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-        </LinearLayout>
-        <LinearLayout
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                app:srcCompat="@drawable/cake"
-                android:layout_width="64dp"
-                android:layout_height="64dp" />
-            <TextView
-                android:textColor="#fff"
-                android:text="Cake"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-        </LinearLayout>
-    </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
