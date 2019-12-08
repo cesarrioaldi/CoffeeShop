@@ -37,9 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
         viewPager = findViewById(R.id.viewpagernya);
 
-
-
-
         layouts = new int[]{
                 R.layout.slide1,
                 R.layout.slide2,
